@@ -3,13 +3,13 @@
 >Disclaimer: This cheatsheet is made for me to use. The reason I have this public is so someone else find it useful.
 
 ## Exiting
-```bash
-:w              # write (save) the file, but don't exit
-:w !sudo tee %  # write out the current file using sudo
-:wq or :x or ZZ # write (save) and quit
-:q              # quit (fails if there are unsaved changes)
-:q! or ZQ       # quit and throw away unsaved changes
-```
+:--|:--
+:w | write (save) the file, but don't exit
+:w !sudo tee % | write out the current file using sudo
+:wq or :x or ZZ | write (save) and quit
+:q              | quit (fails if there are unsaved changes)
+:q! or ZQ       | quit and throw away unsaved changes
+
 
 ## Generel 
 ```bash
