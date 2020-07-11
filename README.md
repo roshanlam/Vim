@@ -34,7 +34,6 @@ xp            | transpose two letters (delete and paste)
 .             | repeat last command
 u             | undo
 Ctrl + r      | redo
-
 yy            | yank (copy) a line
 2yy           | yank (copy) 2 lines
 yw            | yank (copy) the characters of the word from the cursor position to the start of the next word
@@ -49,7 +48,6 @@ d$            | delete (cut) to the end of the line
 d^            | delete (cut) to the first non-blank character of the line
 d0            | delete (cut) to the begining of the line
 x             | delete (cut) character
-
 :sp file      | open a file in a new buffer and split window
 :vsp file     | open a file in a new buffer and vertically split window
 Ctrl + ws     | split window
@@ -60,7 +58,6 @@ Ctrl + wh     | move cursor to the left window (vertical split)
 Ctrl + wl     | move cursor to the right window (vertical split)
 Ctrl + wj     | move cursor to the window below (horizontal split)
 Ctrl + wk     | move cursor to the window above (horizontal split)
-
 :tabnew or :tabnew file | open a file in a new tab
 Ctrl + wT               | move the current split window into its own tab
 gt or :tabnext or :tabn | move to the next tab
