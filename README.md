@@ -9,36 +9,31 @@ Command | Description
 :wq or :x or ZZ | write (save) and quit
 :q              | quit (fails if there are unsaved changes)
 :q! or ZQ       | quit and throw away unsaved changes
-
-
-## Generel 
-```bash
-:help keyword # open help for keyword
-:o file       # open file
-:saveas file  # save file as
-:close        # close current pane
-h             # move cursor left
-j             # move cursor down
-k             # move cursor up
-l             # move cursor right
-H             # move to top of screen
-M             # move to middle of screen
-L             # move to bottom of screen
-r             # replace a single character
-J             # join line below to the current one
-cc            # change (replace) entire line
-cw            # change (replace) to the start of the next word
-ce            # change (replace) to the end of the next word
-cb            # change (replace) to the start of the previous word
-c0            # change (replace) to the start of the line
-c$            # change (replace) to the end of the line
-s             # delete character and substitute text
-S             # delete line and substitute text (same as cc)
-xp            # transpose two letters (delete and paste)
-.             # repeat last command
-u             # undo
-Ctrl + r      # redo
-```
+:help keyword | open help for keyword
+:o file       | open file
+:saveas file  | save file as
+:close        | close current pane
+h             | move cursor left
+j             | move cursor down
+k             | move cursor up
+l             | move cursor right
+H             | move to top of screen
+M             | move to middle of screen
+L             | move to bottom of screen
+r             | replace a single character
+J             | join line below to the current one
+cc            | change (replace) entire line
+cw            | change (replace) to the start of the next word
+ce            | change (replace) to the end of the next word
+cb            | change (replace) to the start of the previous word
+c0            | change (replace) to the start of the line
+c$            | change (replace) to the end of the line
+s             | delete character and substitute text
+S             | delete line and substitute text (same as cc)
+xp            | transpose two letters (delete and paste)
+.             | repeat last command
+u             | undo
+Ctrl + r      | redo
 
 ## Cut and paste
 ```bash
