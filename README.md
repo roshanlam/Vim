@@ -48,6 +48,7 @@ d$            | delete (cut) to the end of the line
 d^            | delete (cut) to the first non-blank character of the line
 d0            | delete (cut) to the begining of the line
 x             | delete (cut) character
+:1,$d         | delete all the lines
 :sp file      | open a file in a new buffer and split window
 :vsp file     | open a file in a new buffer and vertically split window
 Ctrl + ws     | split window
